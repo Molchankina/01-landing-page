@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <meta
+            name="description"
+            content="Бесплатная 30-минутная диагностика для детей 6–11 лет. Игровой подход, тёплое общение и индивидуальные занятия."
+        >
+        <meta
+            name="theme-color"
+            content="#f7b84b"
+        >
+        <title>
+            Ульяна Валерьевна — наставник для детей 5–11 лет
+        </title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        >
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito:wght@600;700;800;900&display=swap"
+            rel="stylesheet"
+        >
+        <link
+            rel="stylesheet"
+            href="style.css"
+        >
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="container header__inner">
+                <a
+                    href="#hero"
+                    class="logo"
+                    aria-label="На главную"
+                >
+                    <span class="logo__icon">✦</span>
+                    <span>Ульяна Валерьевна</span>
+                </a>
+                <nav
+                    class="nav"
+                    id="nav"
+                >
+                    <a
+                        href="#about"
+                        class="nav__link"
+                    >
+                        Обо мне
+                    </a>
+                    <a
+                        href="#diagnostic"
+                        class="nav__link"
+                    >
+                        Диагностика
+                    </a>
+                    <a
+                        href="#process"
+                        class="nav__link"
+                    >
+                        Как всё проходит
+                    </a>
+                    <a
+                        href="#faq"
+                        class="nav__link"
+                    >
+                        Вопросы
+                    </a>
+                    <button
+                        class="button button--small nav__button js-open-modal"
+                        type="button"
+                    >
+                        Записаться
+                    </button>
+                </nav>
+                <button
+                    class="burger"
+                    type="button"
+                    aria-label="Открыть меню"
+                    aria-expanded="false"
+                    aria-controls="nav"
+                    id="burger"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero__decor hero__decor--one"></div>
+                <div class="hero__decor hero__decor--two"></div>
+                <div class="hero__dots"></div>
+                <div class="container hero__inner">
+                    <div class="hero__content reveal">
+                        <div class="eyebrow">
+                            <span class="eyebrow__dot"></span>
+                            Для детей 5–11 лет
+                        </div>
+                        <h1>
+                            Помогу ребёнку
+                            <span>полюбить учёбу</span>
+                            без слёз и страха
+                        </h1>
+                        <p class="hero__subtitle">
+                            Бесплатная 30-минутная диагностика +
+                            доступ в закрытый канал для родителей
+                            в MAX.
+                        </p>
+                        <p class="hero__description">
+                            Узнаем, что мешает ребёнку учиться
+                            с интересом. Без оценок и давления —
+                            только игра, живое общение и полезные
+                            задания.
+                        </p>
+                        <div class="hero__actions">
+                            <button
+                                class="button button--primary button--large js-open-modal"
+                                type="button"
+                            >
+                                Записаться на диагностику
+                            </button>
+                            <a
+                                href="#diagnostic"
+                                class="button button--ghost"
+                            >
+                                Узнать подробнее
+                                <span>↓</span>
+                            </a>
+                        </div>
+                        <div class="hero__availability">
+                            <span class="status-dot"></span>
+                            Осталось
+                            <strong>4 места</strong>
+                            на эту неделю
+                        </div>
+                    </div>
+                    <div class="hero__visual reveal reveal--delay">
+                        <div class="hero__image-wrap">
+                            <img
+                                src=""
+                                alt="Занятие с детьми"
+                                class="hero__image"
+                            >
+                            <div class="hero__sticker">
+                                <span>30</span>
+                                минут
+                                <small>
+                                    бесплатно
+                                </small>
+                            </div>
+                            <div
+                                class="hero__floating-card hero__floating-card--top"
+                            >
+                                <span class="floating-icon">
+                                    🧠
+                                </span>
+                                <div>
+                                    <strong>
+                                        Играем
+                                    </strong>
+                                    <small>
+                                        и развиваемся
+                                    </small>
+                                </div>
+                            </div>
+                            <div
+                                class="hero__floating-card hero__floating-card--bottom"
+                            >
+                                <span class="floating-icon">
+                                    ❤️
+                                </span>
+                                <div>
+                                    <strong>
+                                        Без страха
+                                    </strong>
+                                    <small>
+                                        перед ошибками
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section about" id="about">
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <div>
+                            <div class="eyebrow">
+                                <span class="eyebrow__dot"></span>
+                                Обо мне
+                            </div>
+                            <h2>
+                                Наставник,
+                                которого ребёнок
+                                <span>не боится</span>
+                            </h2>
+                        </div>
+                        <p>
+                            Я не просто объясняю материал.
+                            Я помогаю ребёнку почувствовать,
+                            что учиться — это интересно.
+                        </p>
+                    </div>
+                    <div class="about__grid">
+                        <div class="about__visual reveal">
+                            <div class="about__main-image">
+                                <img
+                                    src=""
+                                    alt="Улыбающийся наставник"
+                                >
+                                <div class="about__experience">
+                                    <strong>
+                                        5+
+                                    </strong>
+                                    <span>
+                                        лет работы<br>
+                                        с детьми
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="about__small-image">
+                                <img
+                                    src=""
+                                    alt="Дети занимаются вместе"
+                                >
+                            </div>
+                        </div>
+                        <div class="about__content reveal reveal--delay">
+                            <h3>
+                                Меня зовут
+                                <span>Ульяна Валерьевна</span> —
+                                я ваш друг-наставник
+                            </h3>
+                            <p>
+                                Мне 21, но за плечами уже 5 лет
+                                работы с дошкольниками и младшими
+                                школьниками. Я не просто репетитор —
+                                я на одной волне с детьми, знаю их
+                                интересы, мемы и язык.
+                            </p>
+                            <p>
+                                При этом я требовательна:
+                                мы играем, но мы и работаем.
+                                Моя главная цель — чтобы ребёнок
+                                перестал бояться двоек, полюбил
+                                учиться и сам тянулся к знаниям.
+                            </p>
+                            <p>
+                                Каждое занятие строю через игру,
+                                живые примеры и задания-квесты.
+                            </p>
+                            <div class="principles">
+                                <article class="principle">
+                                    <div class="principle__icon">
+                                        🧸
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Бережно и без стресса
+                                        </h4>
+                                        <p>
+                                            Никакой зубрёжки —
+                                            только радость открытий.
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="principle">
+                                    <div class="principle__icon">
+                                        ❤️
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Не боимся ошибок
+                                        </h4>
+                                        <p>
+                                            Ошибка — это шаг к росту,
+                                            а не повод для стыда.
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="principle">
+                                    <div class="principle__icon">
+                                        📍
+                                    </div>
+                                    <div>
+                                        <h4>
+                                            Гибкий формат
+                                        </h4>
+                                        <p>
+                                            Онлайн, у себя дома
+                                            или с выездом к вам.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="section diagnostic"
+                id="diagnostic"
+            >
+                <div class="diagnostic__blob"></div>
+                <div class="container">
+                    <div class="section-heading section-heading--center reveal">
+                        <div class="eyebrow eyebrow--center">
+                            <span class="eyebrow__dot"></span>
+                            Бесплатно
+                        </div>
+                        <h2>
+                            Что вас ждёт на
+                            <span>
+                                30-минутной диагностике?
+                            </span>
+                        </h2>
+                        <p>
+                            Это не экзамен и не проверка знаний.
+                            Это игра и тёплая беседа.
+                        </p>
+                    </div>
+                    <div class="diagnostic__grid">
+                        <div class="diagnostic__main reveal">
+                            <div class="diagnostic__badge">
+                                <span>✦</span>
+                                Никаких оценок
+                            </div>
+                            <h3>
+                                После встречи у вас
+                                будет ясная картина
+                            </h3>
+                            <div class="diagnostic__list">
+                                <div class="diagnostic-item">
+                                    <span class="diagnostic-item__number">
+                                        01
+                                    </span>
+                                    <div>
+                                        <h4>
+                                            Уровень ребёнка
+                                        </h4>
+                                        <p>
+                                            Что он уже умеет
+                                            и где есть пробелы.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="diagnostic-item">
+                                    <span class="diagnostic-item__number">
+                                        02
+                                    </span>
+                                    <div>
+                                        <h4>
+                                            Сильные стороны
+                                        </h4>
+                                        <p>
+                                            Что ему нравится:
+                                            рисунки, истории,
+                                            головоломки или другой формат.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="diagnostic-item">
+                                    <span class="diagnostic-item__number">
+                                        03
+                                    </span>
+                                    <div>
+                                        <h4>
+                                            Первые рекомендации
+                                        </h4>
+                                        <p>
+                                            Что можно подтянуть
+                                            уже сейчас.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="diagnostic__result reveal reveal--delay">
+                            <div class="result-card">
+                                <span class="result-card__icon">
+                                    💡
+                                </span>
+                                <span class="result-card__label">
+                                    ИТОГ ВСТРЕЧИ
+                                </span>
+                                <h3>
+                                    Короткая обратная связь
+                                </h3>
+                                <p>
+                                    Вы получите текст или голосовое
+                                    сообщение: что у ребёнка получается
+                                    отлично, над чем стоит поработать
+                                    и каким может быть примерный
+                                    план занятий.
+                                </p>
+                                <div class="result-card__line"></div>
+                                <p class="result-card__note">
+                                    Никаких обязательств.
+                                    Если решите заниматься — здорово.
+                                    Если нет — я всё равно дам пару
+                                    бесплатных советов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="section process"
+                id="process"
+            >
+                <div class="container">
+                    <div class="section-heading section-heading--center reveal">
+                        <div class="eyebrow eyebrow--center">
+                            <span class="eyebrow__dot"></span>
+                            Всё просто
+                        </div>
+                        <h2>
+                            4 шага к вашему спокойствию
+                            и <span>любви к учёбе</span>
+                        </h2>
+                    </div>
+                    <div class="process__grid">
+                        <article class="process-card reveal">
+                            <div class="process-card__top">
+                                <span class="process-card__number">
+                                    01
+                                </span>
+                                <span class="process-card__emoji">
+                                    🗓
+                                </span>
+                            </div>
+                            <h3>
+                                Выбираете время
+                            </h3>
+                            <p>
+                                Я подстраиваюсь под ваш график
+                                и подбираю удобный формат встречи.
+                            </p>
+                        </article>
+                        <article class="process-card reveal reveal--delay-1">
+                            <div class="process-card__top">
+                                <span class="process-card__number">
+                                    02
+                                </span>
+                                <span class="process-card__emoji">
+                                    🧸
+                                </span>
+                            </div>
+                            <h3>
+                                Мы играем 30 минут
+                            </h3>
+                            <p>
+                                Ребёнок даже не заметит,
+                                что его проверяют.
+                            </p>
+                        </article>
+                        <article class="process-card reveal reveal--delay-2">
+                            <div class="process-card__top">
+                                <span class="process-card__number">
+                                    03
+                                </span>
+                                <span class="process-card__emoji">
+                                    📝
+                                </span>
+                            </div>
+                            <h3>
+                                Я делюсь выводами
+                            </h3>
+                            <p>
+                                Рассказываю, что получается отлично
+                                и что стоит подтянуть.
+                            </p>
+                        </article>
+                        <article class="process-card reveal reveal--delay-3">
+                            <div class="process-card__top">
+                                <span class="process-card__number">
+                                    04
+                                </span>
+                                <span class="process-card__emoji">
+                                    ✅
+                                </span>
+                            </div>
+                            <h3>
+                                Вы решаете
+                            </h3>
+                            <p>
+                                Хотите продолжать — отлично.
+                                Не хотите — никаких уговоров.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!--MAX BONUS-->
+            <section class="section channel">
+                <div class="container">
+                    <div class="channel__box reveal">
+                        <div class="channel__content">
+                            <div class="eyebrow">
+                                <span class="eyebrow__dot"></span>
+                                Ваш бонус
+                            </div>
+                            <h2>
+                                Закрытый канал
+                                <span>для родителей в MAX</span>
+                            </h2>
+                            <p class="channel__intro">
+
+                                Просто за то, что пришли на диагностику,
+                                вы получаете доступ в мой закрытый
+                                канал для родителей в MAX.
+
+                            </p>
+                            <div class="channel__features">
+                                <div class="channel-feature">
+                                    <span>🔍</span>
+                                    <div>
+                                        <strong>
+                                            Реальные педкейсы
+                                        </strong>
+                                        <p>
+                                            Разбираю ситуации учеников
+                                            без имён и личных данных.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="channel-feature">
+                                    <span>🎲</span>
+                                    <div>
+                                        <strong>
+                                            Игры на 5 минут
+                                        </strong>
+                                        <p>
+                                            Готовые задания, чтобы занять
+                                            ребёнка без гаджетов.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="channel-feature">
+                                    <span>📖</span>
+                                    <div>
+                                        <strong>
+                                            Закулисье репетитора
+                                        </strong>
+                                        <p>
+                                            Показываю, как проходят занятия
+                                            и почему иногда можно пошалить.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="channel-feature">
+                                    <span>💡</span>
+                                    <div>
+                                        <strong>
+                                            Действенные советы
+                                        </strong>
+                                        <p>
+                                            Простые идеи, которые можно
+                                            применить уже сегодня.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="channel__promise">
+                                <span>✓</span>
+                                Без рекламы. Только польза.
+                            </div>
+                        </div>
+                        <div class="channel__visual">
+                            <div class="max-card">
+                                <div class="max-card__header">
+                                    <div class="max-avatar">
+                                        ✦
+                                    </div>
+                                    <div>
+                                        <strong>
+                                            Наставник для родителей
+                                        </strong>
+                                        <span>
+                                            закрытый канал в MAX
+                                        </span>
+                                    </div>
+                                    <span class="max-online"></span>
+                                </div>
+                                <div class="max-card__messages">
+                                    <div class="max-message">
+                                        <small>
+                                            Сегодня, 10:42
+                                        </small>
+                                        <p>
+                                            💡 Что сказать ребёнку,
+                                            чтобы он сам сел за уроки?
+                                        </p>
+                                    </div>
+                                    <div class="max-message max-message--accent">
+                                        <small>
+                                            Вчера, 18:20
+                                        </small>
+                                        <p>
+                                            🎲 Игра на 5 минут:
+                                            превращаем таблицу умножения
+                                            в квест!
+                                        </p>
+                                    </div>
+                                    <div class="max-message">
+                                        <small>
+                                            Пн, 12:15
+                                        </small>
+                                        <p>
+                                            🔍 Разбираем реальный кейс:
+                                            ребёнок боялся диктантов...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="max-card__blur"></div>
+                                <div class="max-card__lock">
+                                    <span>🔒</span>
+                                    Только для родителей
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section comparison">
+                <div class="container">
+                    <div class="section-heading section-heading--center reveal">
+                        <div class="eyebrow eyebrow--center">
+                            <span class="eyebrow__dot"></span>
+                            Почему я
+                        </div>
+                        <h2>
+                            Чем я отличаюсь
+                            от <span>обычных репетиторов?</span>
+                        </h2>
+                    </div>
+                    <div class="comparison__table reveal">
+                        <div class="comparison__header">
+                            <div>
+                                Обычно
+                            </div>
+                            <div>
+                                У меня
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div>
+                                <span class="comparison__cross">
+                                    ×
+                                </span>
+                                Строгий тон, давление
+                            </div>
+                            <div>
+                                <span class="comparison__check">
+                                    ✓
+                                </span>
+                                Друг-наставник, но требовательный
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div>
+                                <span class="comparison__cross">
+                                    ×
+                                </span>
+                                Дорого
+                            </div>
+                            <div>
+                                <span class="comparison__check">
+                                    ✓
+                                </span>
+                                Доступная цена
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div>
+                                <span class="comparison__cross">
+                                    ×
+                                </span>
+                                Однотипные уроки
+                            </div>
+                            <div>
+                                <span class="comparison__check">
+                                    ✓
+                                </span>
+                                Игровой подход под ребёнка
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div>
+                                <span class="comparison__cross">
+                                    ×
+                                </span>
+                                Родители в неведении
+                            </div>
+                            <div>
+                                <span class="comparison__check">
+                                    ✓
+                                </span>
+                                Обратная связь после занятия
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div>
+                                <span class="comparison__cross">
+                                    ×
+                                </span>
+                                Без дополнительных бонусов
+                            </div>
+                            <div>
+                                <span class="comparison__check">
+                                    ✓
+                                </span>
+                                Бесплатная диагностика + канал в MAX
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="section faq"
+                id="faq"
+            >
+                <div class="container">
+                    <div class="section-heading reveal">
+                        <div>
+                            <div class="eyebrow">
+                                <span class="eyebrow__dot"></span>
+                                Остались вопросы?
+                            </div>
+                            <h2>
+                                Отвечаю на
+                                <span>самые важные</span>
+                            </h2>
+                        </div>
+                        <p>
+                            Если здесь нет вашего вопроса —
+                            просто напишите мне.
+                        </p>
+                    </div>
+                    <div class="faq__list reveal">
+                        <details class="faq-item">
+                            <summary>
+                                <span>
+                                    А если ребёнок не захочет заниматься?
+                                </span>
+                                <span class="faq-item__icon">
+                                    +
+                                </span>
+                            </summary>
+                            <div class="faq-item__answer">
+                                <p>
+                                    Первые 2–3 встречи мы знакомимся
+                                    и играем. Я подстраиваюсь под его
+                                    ритм, интересы и настроение.
+                                    Главная задача — сначала создать
+                                    доверие, а уже потом переходить
+                                    к регулярной работе.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>
+                                    А какой результат?
+                                </span>
+                                <span class="faq-item__icon">
+                                    +
+                                </span>
+                            </summary>
+                            <div class="faq-item__answer">
+                                <p>
+                                    Главный результат — ребёнок начинает
+                                    чувствовать себя увереннее и проявлять
+                                    больше интереса к занятиям. Улучшение
+                                    оценок становится приятным следствием
+                                    системной работы.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>
+                                    Как проходят занятия онлайн?
+                                </span>
+                                <span class="faq-item__icon">
+                                    +
+                                </span>
+                            </summary>
+                            <div class="faq-item__answer">
+                                <p>
+                                    Я использую интерактивную доску,
+                                    игры, картинки и другие визуальные
+                                    материалы. Ребёнок видит меня и задания,
+                                    поэтому занятие проходит живо —
+                                    практически как вживую.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>
+                                    Для какого возраста подходят занятия?
+                                </span>
+                                <span class="faq-item__icon">
+                                    +
+                                </span>
+                            </summary>
+                            <div class="faq-item__answer">
+                                <p>
+                                    Диагностика и занятия рассчитаны
+                                    на детей примерно от 5 до 11 лет.
+                                    Формат и задания подбираются
+                                    индивидуально под возраст ребёнка.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>
+                                    Обязательно ли после диагностики продолжать?
+                                </span>
+                                <span class="faq-item__icon">
+                                    +
+                                </span>
+                            </summary>
+                            <div class="faq-item__answer">
+                                <p>
+                                    Нет. Диагностика ни к чему вас
+                                    не обязывает. Вы получите обратную
+                                    связь и сможете самостоятельно решить,
+                                    нужен ли вам дальнейший формат занятий.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </section>
+            <!-- FINAL CTA-->
+            <section class="final-cta">
+                <div class="final-cta__stars">
+                    ✦　·　✦　·　✦
+                </div>
+                <div class="container final-cta__inner reveal">
+                    <div class="eyebrow eyebrow--light">
+                        <span class="eyebrow__dot"></span>
+                        Начнём знакомство
+                    </div>
+                    <h2>
+                        Дайте ребёнку шанс
+                        <span>полюбить учёбу</span>
+                        уже сегодня
+                    </h2>
+                    <p>
+                        Бесплатная диагностика, обратная связь
+                        и доступ в закрытый канал MAX.
+                        Вы ничего не теряете.
+                    </p>
+                    <a
+                        href="https://max.ru/"
+                        class="button button--white button--large"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Написать мне в MAX
+                    </a>
+                    <small>
+                        Отвечаю в течение часа, без обязательств
+                    </small>
+                </div>
+            </section>
+            <!-- CONTACTS-->
+            <section class="section contacts">
+                <div class="container">
+                    <div class="contacts__grid">
+                        <div class="contacts__intro reveal">
+                            <div class="eyebrow">
+                                <span class="eyebrow__dot"></span>
+                                Контакты
+                            </div>
+                            <h2>
+                                Давайте
+                                <span>знакомиться</span>
+                            </h2>
+                            <p>
+                                Напишите мне удобным способом —
+                                отвечу и помогу выбрать формат
+                                диагностики.
+                            </p>
+                        </div>
+                        <div class="contacts__cards reveal reveal--delay">
+                            <a
+                                href="https://max.ru/"
+                                class="contact-card"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span class="contact-card__icon">
+                                    💬
+                                </span>
+                                <div>
+                                    <small>
+                                        MAX
+                                    </small>
+                                    <strong>
+                                        Написать мне
+                                    </strong>
+                                </div>
+                                <span class="contact-card__arrow">
+                                    →
+                                </span>
+                            </a>
+                            <a
+                                href="https://vk.com/"
+                                class="contact-card"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span class="contact-card__icon">
+                                    VK
+                                </span>
+                                <div>
+                                    <small>
+                                        ВКонтакте
+                                    </small>
+                                    <strong>
+                                        Моя страница
+                                    </strong>
+                                </div>
+                                <span class="contact-card__arrow">
+                                    →
+                                </span>
+                            </a>
+                            <!-- FORMAT -->
+                            <div class="contact-card contact-card--static">
+                                <span class="contact-card__icon">
+                                    📍
+                                </span>
+                                <div>
+                                    <small>
+                                        Формат
+                                    </small>
+                                    <strong>
+                                        Онлайн / выезд по городу / у меня на дому
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__inner">
+                <a
+                    href="#hero"
+                    class="logo logo--footer"
+                >
+                    <span class="logo__icon">
+                        ✦
+                    </span>
+                    <span>
+                        Ульяна Валерьевна
+                    </span>
+                </a>
+                <p>
+                    Помогаю детям учиться с интересом.
+                </p>
+                <span class="footer__copy">
+                    ©
+                    <span id="currentYear"></span>
+                    Ульяна Валерьевна.
+                    Все права защищены.
+                </span>
+            </div>
+        </footer>
+        <a
+            href="https://max.ru/"
+            class="max-float"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Написать в MAX"
+        >
+            <span>✦</span>
+        </a>
+        <div
+            class="modal"
+            id="bookingModal"
+            aria-hidden="true"
+        >
+            <div
+                class="modal__overlay"
+                data-close-modal
+            ></div>
+            <div
+                class="modal__content"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="modalTitle"
+            >
+                <button
+                    class="modal__close"
+                    type="button"
+                    aria-label="Закрыть"
+                    data-close-modal
+                >
+                    ×
+                </button>
+                <div class="modal__icon">
+                    ✦
+                </div>
+                <span class="modal__eyebrow">
+                    Бесплатно
+                </span>
+                <h2 id="modalTitle">
+                    Запишитесь на диагностику
+                </h2>
+                <p>
+                    Оставьте контакты — я свяжусь с вами
+                    и помогу подобрать удобное время.
+                </p>
+                <form
+                    class="booking-form"
+                    id="bookingForm"
+                >
+                    <div class="form-field">
+                        <label for="name">
+                            Ваше имя
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Например, Анна"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+                    <div class="form-field">
+
+                        <label for="time">
+                            Удобное время
+                        </label>
+                        <select
+                            id="time"
+                            name="time"
+                            required
+                        >
+                            <option
+                                value=""
+                                selected
+                                disabled
+                            >
+                                Выберите вариант
+                            </option>
+                            <option value="Утром">
+                                Утром
+                            </option>
+                            <option value="Днём">
+                                Днём
+                            </option>
+                            <option value="Вечером">
+                                Вечером
+                            </option>
+                            <option value="Готова обсудить">
+                                Готова обсудить
+                            </option>
+                        </select>
+                    </div>
+                    <button
+                        type="submit"
+                        class="button button--primary button--large button--full"
+                    >
+                        💬 Написать в MAX
+                    </button>
+                    <p class="form-note">
+                        После отправки заявки откроется MAX
+                        для отправки сообщения.
+                    </p>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
